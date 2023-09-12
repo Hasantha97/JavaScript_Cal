@@ -1,0 +1,65 @@
+input[type="text"]
+{
+    background-color: #bccd95;
+    height: 35px;
+    width: 220px;
+    left: 2px;
+    top: 2px;
+    color: black;
+    position: relative;
+    text-align: right;
+}
+
+.box{
+    background-color: rgb(45,72,98);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    top:80px ;
+    left: 40%;
+
+}
+.disply{
+    width: 220px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 40px;
+
+}
+.button{
+    
+    margin: 2px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 11px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    
+}
+.op{
+    color: white;
+        background-color: rgb(0, 100, 50);
+        border-bottom: black 2px solid;
+        border-top: 2px 303030 solid;
+}
+.button.pink{
+    color: black;
+    background-color:#ff4561;
+    border-bottom: black 2px solid;
+
+}
+.button.black{
+    color: white;
+    background-color: rgb(0,0,0);
+    border-bottom: black 2px solid;
+    border-top: 2px 303030 solid;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+}
+
